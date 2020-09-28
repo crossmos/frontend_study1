@@ -11,7 +11,7 @@ body {
 
 @media (max-width: 1280px) {
   .box {
-    max-width: 800px;
+    max-width: 800px; // comment
   }
 }
 
