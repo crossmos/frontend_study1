@@ -68,29 +68,18 @@ img {
     vertical-align: top;
 }
 
-body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+.example-block {
+    max-width: 200px;
+    margin:  20px auto;
+    padding: 15px;
+    border: 1px solid #000;
 }
 
-h1 {
-    font-size: 30px;
-    color: #445161;
+.example-string {
+
 }
 
-h2 {
-    font-size: 25px;
-    color: #445161;
+.img {
+    width: 100%;
+    max-width: 500px;
 }
-
-.text {
-    line-height: 25px;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.red {
-    color: red;
-}
-
