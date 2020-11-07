@@ -69,3 +69,19 @@ img {
     vertical-align: top;
 }
 
+.example-block {
+    height: 250px;
+    max-width: 500px;
+    margin: 20px;
+    padding: 20px;
+    border: 3px red solid;
+}
+
+.example-string {
+    padding: 20px;
+}
+
+.example-image {
+    height: 200px;
+}
+
