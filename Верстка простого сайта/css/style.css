@@ -74,9 +74,10 @@ body {
 }
 
 .content-bot__info {
-
+	margin: 0 0 0 45px;
 }
 .content-bot__list {
+
 }
 .content-bot__list li {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
