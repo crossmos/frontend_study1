@@ -44,10 +44,6 @@ input::-ms-clear {
     display: none;
 }
 
-button {
-    cursor: none;
-}
-
 button::-moz-focus-inner {
     padding: 0;
     border: 0;
@@ -68,3 +64,12 @@ ul li {
 img {
     vertical-align: top;
 }
+
+.second-line__basket path{
+    fill: black;
+}
+
+.second-line__search path{
+    fill: black;
+}
+
