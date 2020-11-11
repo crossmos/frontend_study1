@@ -188,6 +188,7 @@ margin-left: 400px;
 
 .main{
     margin-top: 124px;
+    color: white;
 }
 .main-screen {
     display: flex;
@@ -246,6 +247,7 @@ margin-left: 400px;
 }
 
 .season-collection {
+    display: flex;
 }
 .season-collection__collection {
     display: flex;
@@ -267,7 +269,15 @@ margin-left: 400px;
 .season-collection-card__price {
 }
 .season-collection__new-collection {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 730px;
+    width: 50vw;
+    background-image: url(../img/men1.jpg);
+    background-size: auto;
+
 }
 .main-button {
 }
