@@ -68,6 +68,15 @@ img {
 .header {
 }
 
+.h2 {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+
+}
+
 .first-line {
     position: fixed;
     width: 100%;
@@ -270,19 +279,11 @@ margin-left: 400px;
     margin-bottom: 40px;
 }
 
-.h2 {
-    font-family: "Playfair Display";
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 48px;
-    text-align: center;
-
-}
-
 .season-collection_cards{
     display: flex;
+    width: 100%;
     justify-content: space-between;
-    margin: 0 80px;
+    padding: 0 80px;
 }
 
 .season-collection-card {
@@ -304,7 +305,7 @@ margin-left: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     min-height: 730px;
     width: 50vw;
     background-image: url(../img/men1.jpg);
