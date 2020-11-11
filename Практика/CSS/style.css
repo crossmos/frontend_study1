@@ -187,17 +187,16 @@ margin-left: 400px;
 }
 
 .main{
-    color: #c4c4c4;
     margin-top: 124px;
 }
 .main-screen {
     display: flex;
-    height: 80vh;
+    height: 100vh;
     background-image: url(../img/mainscreen.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-attachment: fixed;
-    background-size: auto 80vh;
+    background-size: auto 100%;
 }
 .main-screen__title {
     margin: auto;
@@ -235,6 +234,7 @@ margin-left: 400px;
     text-align: center;
     margin-bottom: 20px;
     text-transform: uppercase;
+    color: white;
 }
 
 .main-screen__description {
@@ -242,13 +242,23 @@ margin-left: 400px;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
+    color: white;
 }
 
 .season-collection {
 }
 .season-collection__collection {
+    display: flex;
+    width: 50vw;
+    background-color: black;
 }
 .h2 {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+
 }
 .season-collection-card {
 }
@@ -257,6 +267,7 @@ margin-left: 400px;
 .season-collection-card__price {
 }
 .season-collection__new-collection {
+    
 }
 .main-button {
 }
