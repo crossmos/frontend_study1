@@ -299,20 +299,26 @@ margin-left: 400px;
 
 .season-collection-card_title {
 }
+
 .season-collection-card__price {
 }
+
 .season-collection__new-collection {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     min-height: 730px;
     width: 50vw;
     background-image: url(../img/men1.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
-
 }
+
+.season-collection__new-collection_h2 {
+    margin-top: 484px;
+    margin-bottom: 40px;
+}
+
 .main-button {
 }
