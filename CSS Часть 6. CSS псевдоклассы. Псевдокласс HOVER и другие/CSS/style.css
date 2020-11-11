@@ -16,12 +16,3 @@ body {
     padding: 80px;
 }
 
-.block {
-    background-image: url('../img/2.jfif');
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 300px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px black;
-}
