@@ -249,11 +249,27 @@ margin-left: 400px;
 .season-collection {
     display: flex;
 }
+
 .season-collection__collection {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 50vw;
     background-color: black;
 }
+
+.season-collection__collection_separator{
+    width: 120px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.season-collection__h2{
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
 .h2 {
     font-family: "Playfair Display";
     font-size: 36px;
@@ -262,8 +278,24 @@ margin-left: 400px;
     text-align: center;
 
 }
-.season-collection-card {
+
+.season-collection_cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
 }
+
+.season-collection-card {
+    max-width: 260px;
+    max-height: 325px;
+}
+
+.season-collection-card>img {
+    padding: 55px 22px;
+    max-width: 215px;
+    background:#191B1C;
+}
+
 .season-collection-card_title {
 }
 .season-collection-card__price {
@@ -276,7 +308,9 @@ margin-left: 400px;
     min-height: 730px;
     width: 50vw;
     background-image: url(../img/men1.jpg);
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
 
 }
 .main-button {
