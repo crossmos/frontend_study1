@@ -16,4 +16,12 @@ body {
     padding: 30px;
 }
 
-
+.block {
+    border: 5px solid red;
+}
+.block__1 {
+}
+.block__2 {
+}
+.block__3 {
+}
