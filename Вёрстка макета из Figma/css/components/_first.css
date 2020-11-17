@@ -1,0 +1,8 @@
+.first {
+    min-height: 600px;
+    height: 100vh;
+    background-image: url("/Вёрстка макета из Figma/img/first_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
