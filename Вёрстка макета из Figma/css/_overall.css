@@ -3,3 +3,9 @@
 	padding: 0 30px;
 	margin: 0 auto;
 }
+
+.site-container {
+	overflow: hidden;
+}
+
+
