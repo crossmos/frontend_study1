@@ -8,4 +8,6 @@
 	overflow: hidden;
 }
 
-
+.flex {
+	display: flex;
+}
