@@ -18,10 +18,29 @@ body {
 
 .block {
     border: 5px solid red;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 800px;
 }
+
+.block div {
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .block__1 {
+    background-color: #ece89d;
 }
+
 .block__2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #5e5373;
 }
+
 .block__3 {
+    background-color: #18b5a4;
 }
