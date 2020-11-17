@@ -17,6 +17,10 @@
 	align-items: center;
 }
 
+.social__item:not(:last-child) {
+	margin-right: 40px;
+}
+
 .social__link {
 	display: block;
 	background-position: left;
@@ -33,7 +37,6 @@
 .social__link--tw {
 	width: 20px;
 	height: 17px;
-	margin-left: 40px;
 	background-image: url("/Вёрстка макета из Figma/img/icon-social/tw.svg");
 }
 
