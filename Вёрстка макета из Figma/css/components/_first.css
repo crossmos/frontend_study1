@@ -27,6 +27,7 @@
 }
 
 .first__description {
+    margin-bottom: 60px;
     max-width: 500px;
     font-family: 'SFCompact', sans-serif;
     font-size: 14px;
@@ -35,7 +36,12 @@
 
 .first__btn {
     height: 80px;
-    width: 274px;   
-    background-color: #E8594E;
-    ; 
+    width: 274px; 
+    border-radius: 8px;
+    background-color: var(--accent-color);
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    color: var(--white-color);
 }
