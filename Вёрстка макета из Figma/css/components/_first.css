@@ -1,10 +1,10 @@
 .first {
     padding-top: 220px;
-    min-height: 600px;
     height: 100vh;
+    min-height: 700px;
     color: var(--white-color);
     background-image: url("/Вёрстка макета из Figma/img/first_bg.jpg");
-    background-position: center;
+    background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -35,8 +35,7 @@
 }
 
 .first__btn {
-    height: 80px;
-    width: 274px; 
+    padding: 33px 81px;
     border-radius: 8px;
     background-color: var(--accent-color);
     font-size: 12px;
@@ -44,4 +43,9 @@
     letter-spacing: 2.2px;
     text-transform: uppercase;
     color: var(--white-color);
+}
+
+.two {
+    height: 600px;
+    background-color: crimson;
 }
