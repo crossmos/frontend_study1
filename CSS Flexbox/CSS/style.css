@@ -11,3 +11,43 @@ a, a:visited {text-decoration: none;}
 a:hover {text-decoration: none;}
 ul li {list-style: none;}
 img {vertical-align: top;}
+
+.wrapper {
+}
+.block {
+}
+.block__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    border: 20px solid #ece89d;
+    margin: 0 0 20px 0;
+}
+
+.block__column block__column_1 {
+}
+
+.block__column block__column_2 {
+
+}
+
+.block__column block__column_3 {
+
+}
+
+.block__column {
+    border: 20px solid #5e5373;
+}
+
+.block__item {
+    padding:  50px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    background-color: #18b5a4;
+}
+
+.block__row > .block__column:nth-child(2) > .block__item {
+    padding: 90px;
+}
