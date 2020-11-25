@@ -16,6 +16,7 @@ img {vertical-align: top;}
 }
 .block {
 }
+
 .block__row {
     display: flex;
     flex-wrap: wrap;
@@ -25,18 +26,21 @@ img {vertical-align: top;}
     margin: 0 0 20px 0;
 }
 
-.block__column block__column_1 {
+.block__column_1 {
+    order: 3;
 }
 
-.block__column block__column_2 {
-
+.block__column_2 {
+    order: 2;
 }
 
-.block__column block__column_3 {
-
+.block__column_3 {
+    order: 1;
+    align-self: flex-end;
 }
 
 .block__column {
+    flex-basis: 50px;
     border: 20px solid #5e5373;
 }
 
