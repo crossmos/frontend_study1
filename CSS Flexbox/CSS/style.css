@@ -117,32 +117,54 @@ body {
 }
 
 .columns {
+    background-color: #f5f5f5;
+    padding: 50px 0 20px 0;
 }
-.container {
-}
+
 .columns__title {
     text-align: center;
     margin: 0 0 30px 0;
 }
 
 .columns__row {
-    flex: ;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
 }
+
 .columns__column {
+    flex: 0 1 50%;
+    padding: 0 8px;
+    margin-bottom: 30px;
 }
+
 .columns__item {
 }
 .item {
 }
+
 .item__row {
+    display: flex;
 }
+
 .item__img {
+    flex: 0 0 200px;
 }
 .item__body {
+    flex: 1 1 auto;
+    padding: 0 0 0 15px;
 }
 .item__title {
+    color: #333333;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 13px 0;
 }
+
 .item__text {
+    color: #333333;
+    font-style: 16px;
+    line-height: 24px;
 }
 
 .footer {
