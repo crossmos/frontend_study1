@@ -34,6 +34,7 @@ body {
 
 .container {
     max-width: 1240px;
+    padding: 0 30px;
     margin: 0 auto;
 }
 
@@ -44,7 +45,7 @@ body {
 .hi__row {
     display: flex;
     justify-content: space-between;
-    padding: 50px 30px;
+    padding: 50px 0;
 }
 
 .hi__body {
@@ -84,7 +85,6 @@ body {
 
 .what__row {
     display: flex;
-    padding: 0 30px;
 }
 
 .what__img {
@@ -130,7 +130,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -8px;
-    padding: 0 30px;
 }
 
 .columns__column {
@@ -161,6 +160,35 @@ body {
     color: #333333;
     font-style: 16px;
     line-height: 24px;
+}
+
+.vertical {
+    padding: 50px 0;
+}
+
+.vertical__title {
+}
+
+.vertical__body {
+    display: flex;
+}
+
+.vertical__row {
+
+
+}
+
+.vertical__column {
+}
+.vertical__item {
+}
+.vertical__subtitle {
+}
+.vertical__label {
+}
+.vertical__text {
+}
+.vertical__btn {
 }
 
 .footer {
