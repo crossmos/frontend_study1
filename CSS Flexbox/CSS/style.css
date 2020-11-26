@@ -129,6 +129,7 @@ body {
 .columns__row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -8px;
     padding: 0 30px;
 }
 
@@ -136,11 +137,6 @@ body {
     flex: 0 1 50%;
     padding: 0 8px;
     margin-bottom: 30px;
-}
-
-.columns__item {
-}
-.item {
 }
 
 .item__row {
