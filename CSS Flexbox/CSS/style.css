@@ -59,7 +59,6 @@ body {
     margin: 0 0 30px 0;
 }
 
-
 .hi__list li {
     background: url(../img/icons/icon.png) 0 0 no-repeat;
     text-shadow: 1px 1px 0 rgba(0,0,0, .3);
@@ -71,6 +70,11 @@ body {
 
 .hi__list li:last-child {
     margin: 0;
+}
+
+.hi__img img{
+    max-width: 100%;
+    min-width: 200px;
 }
 
 .title {
@@ -167,28 +171,76 @@ body {
 }
 
 .vertical__title {
+    text-align: center;
+    margin: 0 0 30px 0;
 }
 
 .vertical__body {
-    display: flex;
+    max-width: 990px;
+    margin: 0 auto;
 }
 
 .vertical__row {
-
-
+    display: flex;
+    margin: 0 -22.5px;
 }
 
 .vertical__column {
+    display: flex;
+    flex: 0 1 33.333%;
+    padding: 0 22.5px;
 }
+
 .vertical__item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+    background-color: #445162;
+    color: #fff;
+    border: 1px solid #445162;
+    border-radius: 6px;
 }
+
 .vertical__subtitle {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 12px 0;
 }
+
 .vertical__label {
+    font-size: 40px;
+    padding: 16px 0;
+    background-color: #fff;
+    color: #445162;
+    text-align: center;
 }
+
 .vertical__text {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    flex: 1 1 100%;
 }
+
+.vertical__text p {
+    margin: 0 0 15px 0;
+}
+
+.vertical__text p:last-child {
+    margin: 0;
+}
+
 .vertical__btn {
+    display: block;
+    margin: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #445162;
+    background-color: #fff;
 }
 
 .footer {
