@@ -1,12 +1,16 @@
 .first {
     padding-top: 220px;
-    height: 100vh;
-    min-height: 700px;
+    min-height: 100vh;
     color: var(--white-color);
     background-image: url("/Вёрстка макета из Figma/img/first_bg.jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.first__container {
+    position: relative;
+    height: 100%;
 }
 
 .first__link {
@@ -45,7 +49,30 @@
     color: var(--white-color);
 }
 
-.two {
-    height: 600px;
-    background-color: crimson;
+.first__bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.first__form {
+}
+.search-form {
+}
+.search-form__field {
+}
+.search-form__button {
+}
+.first__slider {
+}
+.main-slider {
+}
+.swiper-container {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.main-slider__media {
+}
+.main-slider__text {
 }
