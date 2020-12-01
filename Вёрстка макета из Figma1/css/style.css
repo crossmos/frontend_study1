@@ -16,4 +16,20 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
+/*Импорты*/
 @import url('./fonts.css')
+/*--------------------*/
+
+/*Разметка*/
+body {
+    font-family: 'Lato';
+}
+
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+}
