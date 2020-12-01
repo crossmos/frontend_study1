@@ -21,12 +21,61 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 /*--------------------*/
 
+body {
+    font-family:'Lato';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+}
 
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: black;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .wrapper {
     max-width: 1060px;
     margin: 0 auto;
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__item{
+    margin-right: 82px;
+}
+
+.header__list > .header__item:last-child{
+    margin-right: 0;
+}
+
+.header__link {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+    opacity: .75;
+}
+
+.header__link:focus {
+    color: #E15C3D;
+}
+
+.header__link:active {
+    color: #3B3B3B;
 }
