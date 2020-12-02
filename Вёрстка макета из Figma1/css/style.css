@@ -144,4 +144,21 @@ body {
     color: #fff;
 }
 
+.search-form {
+}
+.search-form__wrap {
+}
+.search-form__info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-form__field {
+    height: 49px;
+    background: url(../img/svg/bullet-round.svg) no-repeat left center;
+    background-size: 20px;
+    border-bottom: 2px solid #fff;
+}
+.search-form__submit {
+}
+
 /*--------------------*/
