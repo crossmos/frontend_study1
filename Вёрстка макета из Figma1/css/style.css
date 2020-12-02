@@ -16,10 +16,38 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
-/*Импорты*/
-@import url('./fonts.css');
+/*Fonts*/
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/lato-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/lato-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/lato-v17-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v17-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
 
 /*--------------------*/
+
+
 
 body {
     font-family:'Lato';
@@ -28,12 +56,15 @@ body {
     font-weight: normal;
 }
 
+
+
+/*Хедер*/
+
 .header {
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
-    background-color: black;
 }
 
 .header__wrapper {
@@ -41,6 +72,7 @@ body {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
+    padding-top: 56px;
 }
 
 .wrapper {
@@ -79,3 +111,37 @@ body {
 .header__link:active {
     color: #3B3B3B;
 }
+
+/*--------------------*/
+
+
+/*1-ый экран*/
+
+.intro {
+    padding-top: 263px;
+    height: 100vh;
+    background: url(../img/intro-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.intro__title {
+    margin-bottom: 22px;
+    max-width: 619px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    color: #fff;
+}
+
+.intro__subtitle {
+    margin-bottom: 59px;
+    max-width: 546px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+
+/*--------------------*/
