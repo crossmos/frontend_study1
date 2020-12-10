@@ -144,10 +144,6 @@ body {
     color: #fff;
 }
 
-.search-form {
-}
-.search-form__wrap {
-}
 .search-form__info {
     display: flex;
     flex-wrap: wrap;
@@ -183,6 +179,67 @@ body {
 
 .search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active {
     background-color: #0c51ac;
+}
+
+/*--------------------*/
+
+/*2-ый экран*/
+
+.benefits__wrap{
+    position: relative;
+    max-width: 1262px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+}
+
+.benefits__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(-100%);
+    padding: 92px 0 88px 99px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 42px;
+    color: #102746;
+    background-color: #fff;
+}
+
+.benefits__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+    padding: 0 100px;
+}
+
+.benefits__card{
+    grid-column: span 1;
+}
+
+.benefits__card-pic {
+    margin-bottom: 37px;
+    max-width: 66px;
+    margin-bottom: 37px;
+    margin-bottom: 37px;
+}
+
+.benefits__card-thumb{
+    display: block;
+}
+
+.benefits__card-title{
+    margin-bottom: 26px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.benefits__card-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 /*--------------------*/
