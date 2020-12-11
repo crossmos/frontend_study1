@@ -12,7 +12,7 @@ button::-moz-focus-inner {padding:0;border:0;}
 a,a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
-img{vertical-align: top;}
+img{vertical-align: top; width: 100%; height: auto;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
@@ -290,8 +290,49 @@ body {
 
 /*2-ый экран*/
 
-.places__title{
+.places__caption{
     margin-bottom: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.places__title{
+    margin-right: 15px;
+}
+
+.places__view-all{
+    padding-right: 59px;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #006DFE;
+    background: url(../img/svg/arrowRight.svg) no-repeat 95% center;
+    transition: .2s all;
+}
+
+.places__view-all:hover,.places__view-all:focus {
+    background: url(../img/svg/arrowRight.svg) no-repeat right center;
+}
+
+.places__cards{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 10px;
+}
+
+.places__card_size-lg{
+    grid-column: span 3;
+}
+
+.places__card_size-small{
+    grid-column: span 2;
+}
+
+.places__card-thumb{
+    height: 354px;
+    object-fit: cover;
 }
 
 /*--------------------*/
