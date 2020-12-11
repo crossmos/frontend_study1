@@ -382,8 +382,8 @@ body {
 
 /*--------------------*/
 
-/*3-ый экран*/
 
+/*3-ый экран*/
 
 .tours {
     margin-bottom: 139px;
@@ -441,6 +441,53 @@ body {
 .tour__more:hover, .tour__more:focus {
     background: url(../img/svg/arrowRight.svg) no-repeat right center;
 }
+
+/*--------------------*/
+
+
+/*4-ый экран*/
+
+.top {
+    margin-bottom:86px ;
+}
+
+.top__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+
+.top__title {
+    margin-bottom: 54px;
+}
+
+.top__card-pic{
+    position: relative;
+}
+
+.top__card-thumb{
+    height: 377px;
+    width: 386px;
+}
+
+.top__card-stats{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    background: rgba(21,24,36,0.6);
+}
+
+.top__card-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
 
 
 /*--------------------*/
