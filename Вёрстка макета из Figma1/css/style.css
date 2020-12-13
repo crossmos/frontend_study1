@@ -397,15 +397,6 @@ body {
     align-items: center;
 }
 
-.tour {
-}
-
-.tour__pic {
-}
-
-.tour__thumb {
-}
-
 .wrapper-full > .tours__tour:nth-child(1) > .tour__info{
     padding-left: 31px;
 }
@@ -454,7 +445,13 @@ body {
 .top__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 57px;
+    column-gap: 52px;
+    row-gap: 69px;
+}
+
+.top__card{
+    display: flex;
+    flex-direction: column;
 }
 
 .top__title {
@@ -463,11 +460,11 @@ body {
 
 .top__card-pic{
     position: relative;
+    margin-bottom: 45px;
 }
 
 .top__card-thumb{
-    height: 377px;
-    width: 386px;
+
 }
 
 .top__card-stats{
@@ -477,17 +474,60 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding: 16px 25px 15px;
     width: 100%;
     color: #fff;
     background: rgba(21,24,36,0.6);
 }
 
 .top__card-title{
+    flex-grow: 1;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
 }
 
+.top__card-likes{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 14px;
+    padding-right: 20px;
+    background-image: url(../img/svg/like.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.top__card-comments{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 23px;
+    background-image: url(../img/svg/comments.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.top__card-desc{
+    flex-grow: 1;
+    margin-bottom: 31px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+}
+
+.top__card-more{
+    align-self: flex-start;
+    padding: 12px 19px 11px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    background-color: #006DFE;
+}
+
+.top__card-more:hover , .top__card-more:focus {
+    background-color: #0c51ac;
+}
 
 
 /*--------------------*/
