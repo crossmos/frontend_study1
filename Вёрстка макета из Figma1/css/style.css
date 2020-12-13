@@ -64,7 +64,13 @@ body {
     position: fixed;
     top: 0px;
     left: 0;
+    z-index: 999;
     width: 100%;
+    transition: .2s linear;
+}
+
+.header_active{
+    background: #0E1D28;
 }
 
 .header__wrapper {
@@ -73,6 +79,12 @@ body {
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 56px;
+    transition: .2s linear;
+}
+
+.header__wrapper_active{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .wrapper {
