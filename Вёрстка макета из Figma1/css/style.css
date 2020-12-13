@@ -301,7 +301,7 @@ body {
 
 /*--------------------*/
 
-/*2-ый экран*/
+/*3-ый экран*/
 
 .places{
     margin-bottom: 131px;
@@ -395,7 +395,7 @@ body {
 /*--------------------*/
 
 
-/*3-ый экран*/
+/*4-ый экран*/
 
 .tours {
     margin-bottom: 139px;
@@ -448,7 +448,7 @@ body {
 /*--------------------*/
 
 
-/*4-ый экран*/
+/*5-ый экран*/
 
 .top {
     margin-bottom:86px ;
@@ -473,10 +473,6 @@ body {
 .top__card-pic{
     position: relative;
     margin-bottom: 45px;
-}
-
-.top__card-thumb{
-
 }
 
 .top__card-stats{
@@ -540,6 +536,25 @@ body {
 .top__card-more:hover , .top__card-more:focus {
     background-color: #0c51ac;
 }
+
+/*--------------------*/
+
+
+/*5-ый экран*/
+
+.videos {
+    width: 100%;
+}
+
+.video__item{
+    padding-top: 56.25%;
+}
+
+.videos__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 
 /*--------------------*/
