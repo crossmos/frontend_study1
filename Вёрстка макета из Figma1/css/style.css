@@ -58,7 +58,7 @@ body {
 
 
 
-/*Хедер*/
+/*Header*/
 
 .header {
     position: fixed;
@@ -89,12 +89,14 @@ body {
 }
 
 .wrapper {
-    max-width: 1060px;
+    max-width: 1100px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
 .wrapper-full{
-    max-width: 1262px;
+    max-width: 1300px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -149,10 +151,26 @@ body {
     color: #3B3B3B;
 }
 
+.header__burger{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 28px;
+}
+
+.burger__line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
 /*--------------------*/
 
 
-/*1-ый экран*/
+
+/*Intro*/
 
 .intro {
     padding-top: 263px;
@@ -221,7 +239,9 @@ body {
 
 /*--------------------*/
 
-/*2-ый экран*/
+
+
+/*Benefits*/
 
 .benefits{
     margin-bottom: 131px;
@@ -229,7 +249,7 @@ body {
 
 .benefits__wrap{
     position: relative;
-    max-width: 1262px;
+    max-width: 1260px;
     background-color: #fff;
     margin: 0 auto;
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
@@ -302,7 +322,9 @@ body {
 
 /*--------------------*/
 
-/*3-ый экран*/
+
+
+/*Places*/
 
 .places{
     margin-bottom: 131px;
@@ -396,7 +418,7 @@ body {
 /*--------------------*/
 
 
-/*4-ый экран*/
+/*Tours*/
 
 .tours {
     margin-bottom: 139px;
@@ -449,7 +471,8 @@ body {
 /*--------------------*/
 
 
-/*5-ый экран*/
+
+/*Top*/
 
 .top {
     margin-bottom:86px ;
@@ -541,7 +564,7 @@ body {
 /*--------------------*/
 
 
-/*6-ый экран*/
+/*Video*/
 
 .videos {
     width: 100%;
@@ -570,7 +593,7 @@ body {
 /*--------------------*/
 
 
-/*Футер*/
+/*Footer*/
 
 .footer{
     background-color:#0E1D28;
@@ -597,10 +620,6 @@ body {
     flex: 1 1 50%; 
 }
 
-.footer__menu {
-
-}
-
 .footer__menu-item {
     margin-bottom: 4px;
 }
@@ -624,3 +643,76 @@ body {
 }
 
 /*--------------------*/
+
+
+
+/*Media*/
+
+@media screen and (max-width: 767px) {
+    .header__burger{
+        display: flex;
+    }
+
+    .header__nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 75px;
+        background-color: #000000;
+        transform: translateX(-100%);
+        transition: .2s all;
+    }
+
+    .header__nav-active{
+        transform: translateX(0);
+    }
+
+    .header__nav-close{
+        position: absolute;
+        top: 105px;
+        right: 75px;
+        display: flex;
+        flex-direction: column;
+        width: 40px;
+        height: 40px;
+        z-index: 2;
+    }
+
+    .header__nav-close-line{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    .header__nav-close-line:first-child{
+        align-self: flex-end;
+        transform: rotate(45deg);
+    }
+
+    .header__nav-close-line:last-child{
+        align-self: flex-end;
+        transform: rotate(-45deg);
+    }
+
+    .header__item{
+        width: 100%;
+        margin-right: 0;
+        margin-block-start: 30px;
+    }
+
+    .header__item:last-child{
+        margin-bottom: 0;
+    }
+
+    .header__link{
+        font-size: 42px;
+        line-height: 48px;
+    }
+}
+
+/*--------------------*/
+
+
