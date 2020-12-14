@@ -662,11 +662,11 @@ body {
         padding: 75px;
         background-color: #000000;
         transform: translateX(-100%);
-        transition: .2s all;
     }
 
     .header__nav-active{
         transform: translateX(0);
+        transition: .2s all;
     }
 
     .header__nav-close{
