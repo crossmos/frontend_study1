@@ -648,6 +648,47 @@ body {
 
 /*Media*/
 
+@media screen and (max-width: 1439px) {
+    .videos{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 959px) {
+   .search-form__field {
+       margin-bottom: 20px;
+   } 
+
+   .benefits {
+       margin-bottom: 0;
+   }
+
+   .benefits__wrap{
+       box-shadow: none;
+   }
+
+   .benefits__cards{
+       padding: 20px;
+   }
+
+   .benefits__title{
+       padding: 65px 20px 45px;
+   }
+
+   .places__card_size-lg{
+        grid-column: span 6;
+        height: 280px;
+    }
+
+    .places__card_size-small{
+        grid-column: span 6;
+        height: 280px;
+    }
+
+    
+
+}
+
 @media screen and (max-width: 767px) {
 
     .header__burger{
@@ -713,7 +754,10 @@ body {
         font-size: 42px;
         line-height: 48px;
     }
+
 }
+
+
 
 /*--------------------*/
 
