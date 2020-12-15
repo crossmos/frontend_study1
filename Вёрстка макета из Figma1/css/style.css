@@ -480,7 +480,7 @@ body {
 
 .top__cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-column-gap: 52px;
     grid-row-gap: 69px;
 }
@@ -488,6 +488,7 @@ body {
 .top__card{
     display: flex;
     flex-direction: column;
+    grid-column: span 2;
 }
 
 .top__title {
@@ -672,16 +673,6 @@ body {
         padding: 65px 20px 45px;
     }
 
-    .places__card_size-lg{
-        grid-column: span 6;
-        height: 280px;
-    }
-
-    .places__card_size-small{
-        grid-column: span 6;
-        height: 280px;
-    }
-
     .tours__tour {
         grid-column-gap: 35px;
         grid-row-gap: 20px;
@@ -703,19 +694,34 @@ body {
         padding-left: 0;
     }
 
-    .tour__title{
-        margin-bottom: 20px;
-    }
-
-    .tour__desc{
-        margin-bottom: 40px;
+    .footer{
+        padding: 81px 0 80px;
     }
 }
 
 @media screen and (max-width: 959px) {
    .search-form__field {
        margin-bottom: 20px;
-   } 
+   }
+
+   .places__card_size-lg{
+    grid-column: span 6;
+    height: 280px;
+    }
+
+    .places__card_size-small{
+        grid-column: span 6;
+        height: 280px;
+    }
+
+    .top__cards{
+        column-gap: 25px;
+        row-gap: 50px;
+    }
+
+    .top__card-pic{
+        margin-bottom: 16px;
+    }
 
 }
 
@@ -783,6 +789,26 @@ body {
     .header__link{
         font-size: 42px;
         line-height: 48px;
+    }
+
+   .tour__title{
+        margin-bottom: 20px;
+    }
+
+    .tour__desc{
+        margin-bottom: 40px;
+    }
+
+    .top__card{
+        grid-column: span 3;
+    }
+
+    .top__card-pic{
+        margin-bottom: 12px;
+    }
+
+    .top__card-desc{
+        margin-bottom: 24px;
     }
 
 }
