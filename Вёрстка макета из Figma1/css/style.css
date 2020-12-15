@@ -857,6 +857,19 @@ body {
     .header__link{
         font-size: 32px;
     }
+
+    .search-form__field{
+        background: url(../img/svg/bullet-round.svg) no-repeat left 4px;
+        background-size: 16px;
+        padding-left: 28px;
+        padding-bottom: 16px;
+    }
+
+    .search-form__submit{
+        width: 100%;
+        font-size: 16px;
+        margin-top: 40px;
+    }
 }
 
 
