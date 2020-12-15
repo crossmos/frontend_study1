@@ -796,28 +796,6 @@ body {
         line-height: 48px;
     }
 
-    .intro{
-        padding-top: 160px;
-    }
-    
-    .intro__title{
-        font-size: 32px;
-        line-height: 40px;
-    }
-
-    .intro__subtitle{
-        font-size: 14px;
-    }
-
-    .search-form__field{
-        margin-right: 0;
-        width: 100%;
-    }
-
-    .benefits__card{
-        grid-column: span 3;
-    }
-
    .tour__title{
         margin-bottom: 20px;
     }
@@ -840,6 +818,45 @@ body {
 
 }
 
+@media screen and (max-width:500px){
+
+    .intro{
+        padding-top: 160px;
+    }
+    
+    .intro__title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .intro__subtitle{
+        font-size: 14px;
+    }
+
+    .search-form__field{
+        margin-right: 0;
+        width: 100%;
+        background: url(../img/svg/bullet-round.svg) no-repeat left 4px;
+        background-size: 16px;
+        padding-left: 28px;
+        padding-bottom: 16px;
+    }
+
+    .search-form__field::placeholder{
+        padding-bottom: 16px;
+    }
+
+    .search-form__submit{
+        width: 100%;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .benefits__card{
+        grid-column: span 3;
+    }
+}
+
 @media screen and (max-width:360px){
     .header__nav{
         padding: 40px;
@@ -856,19 +873,6 @@ body {
 
     .header__link{
         font-size: 32px;
-    }
-
-    .search-form__field{
-        background: url(../img/svg/bullet-round.svg) no-repeat left 4px;
-        background-size: 16px;
-        padding-left: 28px;
-        padding-bottom: 16px;
-    }
-
-    .search-form__submit{
-        width: 100%;
-        font-size: 16px;
-        margin-top: 40px;
     }
 }
 
