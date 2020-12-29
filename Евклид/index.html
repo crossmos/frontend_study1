@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="stylesheet" href="./style.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Евклид</title>
 </head>
 <body>
 
     <header class="header">
-        <a href="#" class="logo">
-            <img src="./img/logo.png" alt="Evklid">
-        </a>
+        <div class="container flex">
+            <a href="#" class="logo">
+                <img src="./img/logo.png" alt="Evklid">
+            </a>
+    
+            <nav class="header__nav">
+                <div class="header__item">О нас</div>
+                <div class="header__item">Проекты</div>
+                <div class="header__item">Этапы</div>
+                <div class="header__item">Отзывы</div>
+                <div class="header__item">Контакты</div>
+    
+                <button class="header__search">#</button>
+            </nav>
+        </div>
 
-        <nav class="header__nav">
-            <div class="header__item">О нас</div>
-            <div class="header__item">Проекты</div>
-            <div class="header__item">Этапы</div>
-            <div class="header__item">Отзывы</div>
-            <div class="header__item">Контакты</div>
-
-            <button class="header__search">#</button>
-        </nav>
+    </header>
 
         <main class="container">
 
@@ -33,7 +39,7 @@
             </section>
 
         </main>
-    </header>
+
     
 </body>
 </html>
