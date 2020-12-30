@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="./style.css">
     
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Евклид</title>
@@ -10,35 +11,64 @@
 <body>
 
     <header class="header">
-        <div class="container flex">
-            <a href="#" class="logo">
-                <img src="./img/logo.png" alt="Evklid">
-            </a>
-    
-            <nav class="header__nav">
-                <div class="header__item">О нас</div>
-                <div class="header__item">Проекты</div>
-                <div class="header__item">Этапы</div>
-                <div class="header__item">Отзывы</div>
-                <div class="header__item">Контакты</div>
-    
-                <button class="header__search">#</button>
-            </nav>
+        <div class="container">
+            <div class="header__wrap">
+                <a href="#" class="header__logo">
+                    <img src="./img/logo.png" alt="Evklid">
+                </a>
+        
+                <nav class="header__nav flex">
+                    <div class="header__item">О нас</div>
+                    <div class="header__item">Проекты</div>
+                    <div class="header__item">Этапы</div>
+                    <div class="header__item">Отзывы</div>
+                    <div class="header__item">Контакты</div>
+        
+                    <div class="header__search"></div>
+                </nav>
+            </div>
+
         </div>
 
     </header>
 
-        <main class="container">
+    <main class="container">
 
-            <section class="intro">
-                <h2 class="intro__title">Проектные решения любой сложности</h2>
+        <section class="intro">
+            <h2 class="intro__title">Проектные решения любой сложности</h2>
 
-                <p class="intro__desc">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+            <p class="intro__desc">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
 
-                <button class="intro__button button">Заказать расчёт</button>
-            </section>
+            <button class="intro__button button">Заказать расчёт</button>
+        </section>
 
-        </main>
+        <section class="about-us">
+            <h2 class="about-us__title">О нас</h2>
+
+            <p class="about-us__description">
+                Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип       будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип <span class="about-us__description_icon">будущего</span>  проекта способствует повышению качества экспериментов.
+            </p>
+
+            <div class="about-us__items">
+                <div class="about-us__banner">
+                    <img src="#" alt="" class="about-us__banner_img">
+
+                    <div class="about-us__banner_description">
+                        Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.
+                    </div>
+                    <button class="about-us__banner_button">Подробнее</button>
+                </div>
+
+
+                <div class="about-us__item">
+                    <div class="about-us__item_title">Консультация с широким активом</div>
+
+                    <div class="about-us__item_description">А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 
     
 </body>
